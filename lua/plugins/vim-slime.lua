@@ -1,5 +1,6 @@
 return {
   'jpalardy/vim-slime',
+  enabled = false,
   init = function()
     vim.g.slime_target = 'tmux'
   end,
